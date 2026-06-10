@@ -1,0 +1,29 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 24px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+}
+
+header h1 { margin: 0 0 6px 0 }
+.header p { margin: 0 0 12px 0 }
+
+.form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; align-items: center }
+input { padding: 10px; border: 1px solid #ddd; border-radius: 8px }
+button { padding: 10px 14px; border-radius: 8px; background: #2563eb; color: white; border: none }
+
+.person-tabs { display:flex; gap:8px; margin-top:12px; flex-wrap:wrap }
+.tab-button { background:#e5e7eb; border:none; padding:8px 12px; border-radius:999px }
+.tab-button.active { background:#2563eb; color:white }
+
+table { width:100%; border-collapse:collapse; margin-top:16px }
+th, td { padding:10px; border-bottom:1px solid #eee; text-align:left }
+.action-button { background:#ef4444; color:white; border:none; padding:6px 8px; border-radius:8px }
+.pay-button { background:#f59e0b }
